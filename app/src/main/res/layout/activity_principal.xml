@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/fondo_degradado_dos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cuadro" />
+
+    <ImageView
+        android:id="@+id/caja1"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja4"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja1"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cajacero"
+        app:layout_constraintEnd_toEndOf="@+id/caja1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/caja1"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="Writte1"
+        />
+
+    <ImageView
+        android:id="@+id/caja2"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja5"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja2"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cajacero"
+        app:layout_constraintEnd_toStartOf="@+id/caja3"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toEndOf="@+id/caja1"
+        app:layout_constraintTop_toBottomOf="@+id/caja5"
+        app:layout_constraintVertical_bias="0.259"
+        android:onClick="Writte2"
+        />
+
+    <ImageView
+        android:id="@+id/caja3"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja6"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja3"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cajapunto"
+        app:layout_constraintEnd_toStartOf="@+id/cajamas"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/caja2"
+        app:layout_constraintTop_toBottomOf="@+id/caja6"
+        app:layout_constraintVertical_bias="0.269"
+        android:onClick="Writte3"
+        />
+
+    <ImageView
+        android:id="@+id/caja4"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja4"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/caja1"
+        app:layout_constraintEnd_toStartOf="@+id/caja5"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/caja4"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="Writte4"
+        />
+
+    <ImageView
+        android:id="@+id/caja5"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja8"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja5"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/caja2"
+        app:layout_constraintEnd_toStartOf="@+id/caja6"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@+id/caja4"
+        app:layout_constraintTop_toBottomOf="@+id/caja8"
+        app:layout_constraintVertical_bias="0.555"
+        android:onClick="Writte5"
+        />
+
+    <ImageView
+        android:id="@+id/caja6"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja9"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja6"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/caja6"
+        app:layout_constraintEnd_toStartOf="@+id/cajamenos"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toEndOf="@+id/caja5"
+        app:layout_constraintTop_toBottomOf="@+id/caja9"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Writte6"
+        />
+
+    <ImageView
+        android:id="@+id/caja7"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajac"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja7"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="7"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/caja7"
+        app:layout_constraintEnd_toEndOf="@+id/caja7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajac"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Writte7"
+        />
+
+    <ImageView
+        android:id="@+id/caja8"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaxd"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja8"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="8"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/caja8"
+        app:layout_constraintEnd_toStartOf="@+id/caja9"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/caja7"
+        app:layout_constraintTop_toBottomOf="@+id/cajaxd"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Writte8"
+        />
+
+    <ImageView
+        android:id="@+id/caja9"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaporciento"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCaja9"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/caja6"
+        app:layout_constraintEnd_toStartOf="@+id/cajapor"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/caja8"
+        app:layout_constraintTop_toBottomOf="@+id/cajaporciento"
+        app:layout_constraintVertical_bias="0.531"
+        android:onClick="Writte9"
+        />
+
+    <ImageView
+        android:id="@+id/cajacero"
+        android:layout_width="171dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja1"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="@drawable/ic_cero" />
+
+    <Button
+        android:id="@+id/btnCaja0"
+        android:layout_width="156dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/cajapunto"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja1"
+        app:layout_constraintVertical_bias="0.194"
+        android:onClick="Writte0"
+        />
+
+    <ImageView
+        android:id="@+id/cajapunto"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caja3"
+        app:layout_constraintVertical_bias="0.093"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaPunto"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="."
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toEndOf="@+id/cajacero"
+        app:layout_constraintTop_toBottomOf="@+id/caja3"
+        app:layout_constraintVertical_bias="0.093"
+        android:onClick="WrittePunto"
+        />
+
+    <ImageView
+        android:id="@+id/cajaigual"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajamas"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaIgual"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="="
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toEndOf="@+id/cajapunto"
+        app:layout_constraintTop_toBottomOf="@+id/cajamas"
+        app:layout_constraintVertical_bias="0.157"
+        android:onClick="Resultado"
+        />
+
+    <ImageView
+        android:id="@+id/cajamas"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajamenos"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaMas"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toEndOf="@+id/caja3"
+        app:layout_constraintTop_toBottomOf="@+id/cajamenos"
+        app:layout_constraintVertical_bias="0.071"
+        android:onClick="Suma"
+        />
+
+    <ImageView
+        android:id="@+id/cajamenos"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajapor"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaMenos"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cajamas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toEndOf="@+id/caja6"
+        app:layout_constraintTop_toBottomOf="@+id/cajapor"
+        app:layout_constraintVertical_bias="0.555"
+        android:onClick="Resta"
+        />
+
+    <ImageView
+        android:id="@+id/cajapor"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajadividir"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaPor"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="x"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cajapor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/caja9"
+        app:layout_constraintTop_toBottomOf="@+id/cajadividir"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Multiplicacion"
+        />
+
+    <ImageView
+        android:id="@+id/cajadividir"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaDividir"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="/"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cajadividir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/cajaporciento"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Dividir"
+        />
+
+    <ImageView
+        android:id="@+id/cajaporciento"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaPorcentaje"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:onClick="Potencia"
+        android:text="^"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/caja9"
+        app:layout_constraintEnd_toEndOf="@+id/cajaporciento"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toEndOf="@+id/cajaxd"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <ImageView
+        android:id="@+id/cajaxd"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/ic_a"
+        />
+
+    <Button
+        android:id="@+id/btnCajaXD"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="xd"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cajaxd"
+        app:layout_constraintEnd_toEndOf="@+id/cajaxd"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cajac"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Borrar"
+        />
+
+    <ImageView
+        android:id="@+id/cajac"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/ic_a" />
+
+    <Button
+        android:id="@+id/btnCajaC"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:background="@android:color/transparent"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cajac"
+        app:layout_constraintEnd_toStartOf="@+id/cajaxd"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="Limpiar"
+        />
+
+    <TextView
+        android:id="@+id/txtValores"
+        android:layout_width="393dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="192dp"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="30dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtdata"
+        android:layout_width="392dp"
+        android:layout_height="175dp"
+        android:gravity="bottom|right"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtValores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
